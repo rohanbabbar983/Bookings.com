@@ -3,7 +3,7 @@
 Welcome to the Bookings.com frontend repository! This project is designed to provide a user-friendly and engaging platform for hotel bookings and management.
 
 ## Live Demo
-Check out the live site: https://eats-com-frontend.onrender.com
+Check out the live site: https://bookings-com.onrender.com
 
 ## Features
 - **React** with **TypeScript** for a robust and maintainable codebase
