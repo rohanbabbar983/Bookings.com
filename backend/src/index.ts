@@ -40,7 +40,9 @@ app.use("/api/users",userRoutes);
 app.use("/api/my-hotels",myHotelsRoute);
 app.use("/api/hotels",hotelRoute);
 app.use("/api/my-bookings",bookingRoutes)
-
+app.get("/api/health", async (req: Request, res: Response) => {
+  res.send({ message: "health OK!" });
+});
 
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../frontend/dist', 'index.html'));
