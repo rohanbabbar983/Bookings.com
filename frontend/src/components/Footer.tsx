@@ -11,7 +11,7 @@ const Footer = () => {
               <Link to={"/"}>Bookings.com</Link>
             </span>
           </div>
-          <div className="flex justify-between items-center gap-5">
+          {/* <div className="flex justify-between items-center gap-5">
             <a
               href="https://linkedin.com/in/rohan-babbar-039512239"
               target="_blank"
@@ -28,7 +28,7 @@ const Footer = () => {
             >
               <FaGithub size={25} />
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="mt-10 text-center space-x-2 lg:text-right">
           <p className="text-sm">&copy; 2024 All rights reserved.</p>
