@@ -1,6 +1,6 @@
 # Bookings.com
 
-Welcome to the Bookings.com frontend repository! This project is designed to provide a user-friendly and engaging platform for hotel bookings and management.
+Welcome to the Bookings.com repository! This project is designed to provide a user-friendly and engaging platform for hotel bookings and management.
 
 ## Live Demo
 Check out the live site: https://bookings-com.onrender.com
@@ -32,7 +32,7 @@ Check out the live site: https://bookings-com.onrender.com
     VITE_API_BASE_URL=http://localhost:7000
     VITE_STRIPE_PUB_KEY=your_stripe_public_key
     ```
-4. Create a `.env` file in the root directory and add the necessary environment variables:
+4. Create a `.env` file in the backend and add the necessary environment variables:
      ```env
     MONGODB_CONNECTION_STRING=your_mongo_uri
     JWT_SECRET_KEY= your_secret_key
